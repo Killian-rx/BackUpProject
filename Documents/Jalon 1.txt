@@ -1,0 +1,48 @@
+﻿User Story : 
+
+
+TechSolutions Inc. est une entreprise innovante spécialisée dans le développement de logiciels sur mesure pour les petites et moyennes entreprises. Le client souhaite une solution de sauvegarde fiable et sécurisée pour protéger les données qui constitueront les futurs logiciels de leurs clients. Ils ont besoin d'une plateforme capable de s'adapter à leur croissance rapide, offrant une flexibilité dans la planification des sauvegardes et assurant une récupération rapide en cas de besoin. L’entreprise doit également être en mesure de pouvoir travailler en cas de dysfonctionnement du serveur, ce qui nécessitera l’utilisation d’un deuxième serveur de secours. Il peut être également intéressant d’utiliser un serveur distant en cas d’incendie des locaux, ce qui entraînerait une perte totale des données. 
+
+
+
+
+Etat de l’art :
+
+
+1. Solutions de sauvegarde locales et sur site :
+
+
+Les solutions de sauvegarde sur site consistent à sauvegarder les données sur un serveur local, généralement situé dans les locaux de l'entreprise. Ces solutions offrent un accès rapide aux données et une gestion directe par l'entreprise elle-même. Elles peuvent être mises en œuvre à l'aide de logiciels de sauvegarde dédiés et de matériel de stockage approprié, comme des disques durs externes ou des serveurs NAS (Network Attached Storage).
+Les solutions de sauvegarde sur site peuvent être complétées par des systèmes de sauvegarde locaux automatisés, qui planifient et exécutent les sauvegardes de manière régulière et programmée, offrant ainsi une protection continue des données.
+
+solutions existantes : Veeam Backup & Replication, Acronis Backup, Backup Exec de Veritas, Symantec NetBackup, Commvault
+
+
+2. Solutions de sauvegarde cloud :
+
+
+Les solutions de sauvegarde cloud impliquent le stockage des données sur des serveurs distants, généralement gérés par des fournisseurs de services cloud réputés. Ces solutions offrent une flexibilité accrue, car les données sont accessibles depuis n'importe où avec une connexion Internet et sont souvent protégées par des mesures de sécurité avancées, telles que le cryptage des données et la redondance géographique.
+
+solutions existantes : Dropbox Business, Google Workspace (anciennement G Suite) avec Google Drive, Microsoft 365 avec OneDrive, Amazon Web Services (AWS) avec Amazon S3, Backblaze
+
+
+
+3. Solutions de sauvegarde hybrides :
+
+
+Les solutions de sauvegarde hybrides combinent à la fois des sauvegardes locales et cloud, offrant ainsi une double couche de protection des données. Ces solutions sont particulièrement utiles pour les entreprises qui exigent à la fois une récupération rapide des données en cas de sinistre sur site et une protection contre les catastrophes majeures affectant les locaux physiques de l'entreprise.
+
+solutions existantes : Datto, Carbonite, Barracuda Backup, Zetta DataProtect, Unitrends
+
+
+
+4. Solutions de reprise après sinistre (DRaaS) :
+
+
+Les services de reprise après sinistre en tant que service (DRaaS) sont des solutions complètes qui combinent la sauvegarde des données avec la mise en place de plans de reprise après sinistre. Ces services peuvent inclure la sauvegarde sur site, la sauvegarde cloud, la virtualisation des serveurs et la mise en place de procédures de reprise d'activité en cas de sinistre majeur.
+
+solutions existantes : Zerto, VMware Site Recovery Manager (SRM), Microsoft Azure Site Recovery, IBM Cloud Resiliency Orchestration, Druva Phoenix
+
+
+
+
