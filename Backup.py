@@ -116,7 +116,7 @@ def on_retrieve_click():
 
 
 titre = customtkinter.CTkLabel(master=root,
-                               text="Backup Infrastructure SI",
+                               text="",
                                font=("Helvetica", 20),
                                pady=15)
 titre.pack(pady=5)
